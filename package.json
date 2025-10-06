@@ -1,0 +1,16 @@
+{
+  "name": "1.0.0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/novator24/example_ton_contract.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.13.5",
+    "@types/node": "^24.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+	  "compile": "ts-node ./scripts/compile.ts"
+  }
+}
